@@ -7,7 +7,7 @@ class CalculatorTest {
     @Test
     void add() {
         //TODO inser your realisation in test-method add
-        assertEquals(4, calculator.add(1, 1));
+        assertEquals(2, calculator.add(1, 1));
     }
 
     @Test
