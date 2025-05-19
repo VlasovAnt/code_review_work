@@ -12,7 +12,10 @@ on:
     branches: [ "VlasovAA" ] 
   pull_request: 
     branches: [ "VlasovAA" ] 
-    
+  schedule:
+  - cron: '30 12 * * 3'
+  - cron: '0 22 * * 5'
+  
 permissions: 
   contents: read 
   
